@@ -1,6 +1,6 @@
 # npmtest-rupture
 
-#### test coverage for  [rupture (v0.6.2)](https://github.com/jenius/rupture#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rupture.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rupture) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rupture.svg)](https://travis-ci.org/npmtest/node-npmtest-rupture)
+#### basic test coverage for  [rupture (v0.6.2)](https://github.com/jenius/rupture#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rupture.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rupture) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rupture.svg)](https://travis-ci.org/npmtest/node-npmtest-rupture)
 
 #### simple media queries for stylus
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rupture/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rupture/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rupture/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rupture/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rupture/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rupture/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rupture/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rupture/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rupture/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rupture/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rupture/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rupture/build/coverage.html/index.html)
 
@@ -75,7 +75,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.6.2"
+    "version": "0.6.2",
+    "bin": {}
 }
 ```
 
